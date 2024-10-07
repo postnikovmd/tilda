@@ -341,6 +341,6 @@
         transform: none !important;
     }
 /* window.header.load */
-    .t-header-container.load .tn-menu {
+    .t-header-container.load .tn-menu, .t-header-container.load .tn-menu .t396__artboard, .t-header-container.load .tn-menu .t396__filter {
         transition: none !important;
     }
