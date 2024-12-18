@@ -1,6 +1,1 @@
-/*!
- * flip.js v1.1 | MIT License | (c) 2024 Maksim Postnikov
- * https://postnikovmd.com/mods/license
- */
-
 .t-flip-container .flip-link{cursor:pointer!important}.t-flip-container .flip-front,.t-flip-container.active .flip-back{pointer-events:auto}.t-flip-container .flip-back,.t-flip-container.active .flip-front{pointer-events:none}.t-flip-container .flip-back .tn-molecule,.t-flip-container .flip-front .tn-molecule{transition:transform var(--flip-transition) var(--flip-easing);transform-style:preserve-3d;backface-visibility:hidden;-webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d}.t-flip-container .flip-front .tn-molecule,.t-flip-container.active .flip-back .tn-molecule{transform:perspective(var(--flip-perspective)) rotateY(0)}.t-flip-container .flip-back .tn-molecule{transform:perspective(var(--flip-perspective)) rotateY(-180deg)}.t-flip-container.active .flip-front .tn-molecule{transform:perspective(var(--flip-perspective)) rotateY(180deg)}.t-flip-container[data-rescale] .flip-card{zoom:var(--scale-factor)!important}
