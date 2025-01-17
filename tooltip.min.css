@@ -1,0 +1,1 @@
+.tn-tooltip,.tn-tooltip-group{transition:var(--tooltip-transition) var(--tooltip-easing)!important}.tn-tooltip-group.inactive,.tn-tooltip.inactive{opacity:0!important;pointer-events:none!important}
