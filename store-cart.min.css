@@ -1,0 +1,6 @@
+/*!
+ * store-cart.css v1.6 | MIT License | (c) 2026 Maksim Postnikov
+ * https://postnikovmd.com/mods/store/cart
+ */
+
+.t706[data-hideicon] .t706__carticon_showed,.t1002[data-hideicon] .t1002__wishlisticon_showed{display:none!important}.tn-store-link{cursor:pointer}.tn-store-link>.tn-atom:after,.tn-store-link>.tn-molecule:after{content:"";display:block;position:absolute;left:0;top:0;width:100%;height:100%;border-radius:inherit;pointer-events:none;opacity:0;transition:var(--link-transition) var(--link-easing)}.tn-store-link.active>.tn-atom:after,.tn-store-link.active>.tn-molecule:after{opacity:1}.tn-store-link[data-active-bgcolor]>.tn-atom:after,.tn-store-link[data-active-bgcolor]>.tn-molecule:after{background-color:var(--active-bgcolor)}.tn-store-link[data-active-bgimage]>.tn-atom:after,.tn-store-link[data-active-bgimage]>.tn-molecule:after{background-image:var(--active-bgimage);background-size:cover}.tn-store-link[data-active-bordercolor]>.tn-atom:after,.tn-store-link[data-active-bordercolor]>.tn-molecule:after{border-color:var(--active-bordercolor)}

@@ -1,0 +1,6 @@
+/*!
+ * copy.css v1.6 | MIT License | (c) 2026 Maksim Postnikov
+ * https://postnikovmd.com/mods/copy
+ */
+
+.tn-copy{position:relative;display:inline-block;cursor:pointer;pointer-events:auto}.tn-copy:has(.tn-copy-hint){overflow:visible!important}.tn-copy-hint{position:absolute;margin:var(--hint-margin,4px);padding:calc(var(--hint-padding, 8px)/2) var(--hint-padding,8px);background-color:var(--hint-bgcolor,#000);color:var(--hint-color,#fff);font-size:var(--hint-fontsize,12px);font-weight:var(--hint-fontweight,400);border:var(--hint-borderwidth,0) solid var(--hint-bordercolor,transparent);border-radius:var(--hint-borderradius,0);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity var(--copy-transition) var(--copy-easing)}.tn-copy.hover .tn-copy-hint{opacity:1}.tn-copy-hint[data-position=top]{bottom:100%;left:50%;transform:translateX(-50%)}.tn-copy-hint[data-position=bottom]{top:100%;left:50%;transform:translateX(-50%)}.tn-copy-hint[data-position=left]{right:100%;top:50%;transform:translateY(-50%)}.tn-copy-hint[data-position=right]{left:100%;top:50%;transform:translateY(-50%)}

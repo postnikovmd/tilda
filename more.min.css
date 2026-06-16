@@ -1,0 +1,6 @@
+/*!
+ * more.css v1.6 | MIT License | (c) 2026 Maksim Postnikov
+ * https://postnikovmd.com/mods/more
+ */
+
+.t-more-container{max-height:var(--more-height);transition:max-height var(--more-transition) var(--more-easing)!important;overflow:hidden!important}.t-more-container.hidden{max-height:0!important}.t-more-hide-container[data-more-toggle=rec].hidden,.t-more-show-container[data-more-toggle=rec].hidden{display:none!important}.t-more-hide-container[data-more-toggle=elem] .tn-hide-button,.t-more-show-container[data-more-toggle=elem] .tn-show-button{transition:opacity var(--more-transition) var(--more-easing)!important}.t-more-hide-container[data-more-toggle=elem].hidden .tn-hide-button,.t-more-show-container[data-more-toggle=elem].hidden .tn-show-button{opacity:0;pointer-events:none!important}.t-more-hide-container .tn-hide-button,.t-more-show-container .tn-show-button{cursor:pointer!important}

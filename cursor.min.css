@@ -1,0 +1,6 @@
+/*!
+ * cursor.css v1.6 | MIT License | (c) 2026 Maksim Postnikov
+ * https://postnikovmd.com/mods/cursor
+ */
+
+.tn-cursor{position:fixed;pointer-events:none;width:var(--cursor-dot-hover-size,40px);height:var(--cursor-dot-hover-size,40px);z-index:99999993}.tn-cursor .tn-cursor-inner{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:var(--cursor-dot-size,5px);height:var(--cursor-dot-size,5px);border-radius:100%;border:var(--cursor-dot-border-width,1px) solid var(--cursor-dot-color,#000);transition:all var(--cursor-dot-transition,.3s) ease}#tn-cursor-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999992;pointer-events:none}@media print,screen and (max-width:1199px){#tn-cursor-canvas,.tn-cursor{display:none!important}}
