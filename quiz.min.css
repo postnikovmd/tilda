@@ -1,0 +1,6 @@
+/*!
+ * quiz.css v1.6 | MIT License | (c) 2026 Maksim Postnikov
+ * https://postnikovmd.com/mods/quiz
+ */
+
+.t-quiz-container{position:relative}.t-quiz-container .tn-quiz-step{display:none!important}.t-quiz-container .tn-quiz-step.tn-quiz-active{display:block!important}.t-quiz-container .tn-quiz-next,.t-quiz-container .tn-quiz-prev,.t-quiz-container .tn-quiz-skip,.t-quiz-container .tn-quiz-submit{cursor:pointer}.t-quiz-container[data-progressbar] .tn-quiz-progress{position:absolute;top:0;left:0;z-index:100;height:var(--quiz-progress-height,0);width:var(--quiz-progress-width,0);background-color:var(--quiz-progress-color,transparent);transition:width var(--quiz-progress-transition,--quiz-transition) var(--quiz-progress-easing,--quiz-easing);pointer-events:none}
